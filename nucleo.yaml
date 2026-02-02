@@ -1,0 +1,12 @@
+info:
+  name: Nucleo-F401RE
+  cid: nucleo_f401
+pins:
+  - pin: 1
+    name: PC13
+    type: GPIO
+    color: blue
+  - pin: 2
+    name: PA0
+    type: ADC
+    color: green
