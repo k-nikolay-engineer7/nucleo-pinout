@@ -1,12 +1,8 @@
-info:
-  name: Nucleo-F401RE
-  cid: nucleo_f401
-pins:
-  - pin: 1
-    name: PC13
-    type: GPIO
-    color: blue
-  - pin: 2
-    name: PA0
-    type: ADC
-    color: green
+board: "Nucleo-64"
+layout:
+  - [ 1, "PC13", "GPIO", "USER_B1" ]
+  - [ 2, "PC14", "OSC", "OSC32_IN" ]
+  - [ 3, "PC15", "OSC", "OSC32_OUT" ]
+  - [ 4, "PH0", "OSC", "OSC_IN" ]
+  - [ 5, "PH1", "OSC", "OSC_OUT" ]
+  - [ 6, "NRST", "RESET" ]
