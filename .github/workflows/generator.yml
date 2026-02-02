@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Generate Pinout Table
-        uses: rusefi/interactive-pinout-generator@master
+      - name: Generate Pinout
+        uses: splitbrain/pinoutleaf-action@v2
+        with:
+          config: 'nucleo.yaml' # имя вашего файла с данными
