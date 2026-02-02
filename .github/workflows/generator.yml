@@ -1,0 +1,9 @@
+name: Generate Pinout
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate Pinout Table
+        uses: rusefi/interactive-pinout-generator@master
